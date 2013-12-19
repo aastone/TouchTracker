@@ -19,6 +19,9 @@
 		030D11111862C382004095C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D10F91862C382004095C0 /* UIKit.framework */; };
 		030D11191862C382004095C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030D11171862C382004095C0 /* InfoPlist.strings */; };
 		030D111B1862C382004095C0 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D111A1862C382004095C0 /* TouchTrackerTests.m */; };
+		030D11261862C39F004095C0 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D11251862C39F004095C0 /* Line.m */; };
+		030D11291862C3F4004095C0 /* TouchDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D11281862C3F4004095C0 /* TouchDrawView.m */; };
+		030D112C1862C484004095C0 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D112B1862C484004095C0 /* TouchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		030D11161862C382004095C0 /* TouchTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		030D11181862C382004095C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		030D111A1862C382004095C0 /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
+		030D11241862C39F004095C0 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		030D11251862C39F004095C0 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		030D11271862C3F4004095C0 /* TouchDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDrawView.h; sourceTree = "<group>"; };
+		030D11281862C3F4004095C0 /* TouchDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDrawView.m; sourceTree = "<group>"; };
+		030D112A1862C484004095C0 /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		030D112B1862C484004095C0 /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +116,12 @@
 		030D10FB1862C382004095C0 /* TouchTracker */ = {
 			isa = PBXGroup;
 			children = (
-				030D11041862C382004095C0 /* AppDelegate.h */,
-				030D11051862C382004095C0 /* AppDelegate.m */,
+				030D11241862C39F004095C0 /* Line.h */,
+				030D11251862C39F004095C0 /* Line.m */,
+				030D11271862C3F4004095C0 /* TouchDrawView.h */,
+				030D11281862C3F4004095C0 /* TouchDrawView.m */,
+				030D112A1862C484004095C0 /* TouchViewController.h */,
+				030D112B1862C484004095C0 /* TouchViewController.m */,
 				030D11071862C382004095C0 /* Images.xcassets */,
 				030D10FC1862C382004095C0 /* Supporting Files */,
 			);
@@ -118,6 +131,8 @@
 		030D10FC1862C382004095C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				030D11041862C382004095C0 /* AppDelegate.h */,
+				030D11051862C382004095C0 /* AppDelegate.m */,
 				030D10FD1862C382004095C0 /* TouchTracker-Info.plist */,
 				030D10FE1862C382004095C0 /* InfoPlist.strings */,
 				030D11011862C382004095C0 /* main.m */,
@@ -240,6 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				030D11061862C382004095C0 /* AppDelegate.m in Sources */,
+				030D112C1862C484004095C0 /* TouchViewController.m in Sources */,
+				030D11261862C39F004095C0 /* Line.m in Sources */,
+				030D11291862C3F4004095C0 /* TouchDrawView.m in Sources */,
 				030D11021862C382004095C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

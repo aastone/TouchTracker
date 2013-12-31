@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5464B84B-4683-4740-ACD8-E13F712837F6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TouchTracker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3FB6D732-3A5F-4CD0-B10A-AC9652A3FDEC</key>
+		<string>https://github.com/aastone/TouchTracker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TouchTracker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3FB6D732-3A5F-4CD0-B10A-AC9652A3FDEC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aastone/TouchTracker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3FB6D732-3A5F-4CD0-B10A-AC9652A3FDEC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3FB6D732-3A5F-4CD0-B10A-AC9652A3FDEC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TouchTracker</string>
+		</dict>
+	</array>
+</dict>
+</plist>

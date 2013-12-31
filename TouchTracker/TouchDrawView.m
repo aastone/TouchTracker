@@ -238,6 +238,16 @@
 }
 
 
+- (int)numberOfLines
+{
+    int count = 0;
+    
+    if (linesInProcess && completeLines) {
+        count = [linesInProcess count] + [completeLines count];
+    }
+    
+    return count;
+}
 
 
 @end
